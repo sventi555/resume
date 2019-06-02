@@ -1,0 +1,26 @@
+* {
+    border: 1px solid red;
+}
+
+#header {
+    height: 15vh;
+}
+
+#container {
+    height: 85vh;
+    display: flex;
+}
+
+#sidebar {
+    width: 20vw;
+}
+
+#main {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    height: 30%;
+}
