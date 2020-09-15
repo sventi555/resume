@@ -20,7 +20,7 @@ body {
 
 #header {
     display: flex;
-    height: 9em;
+    height: 8em;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(42, 52, 62);
