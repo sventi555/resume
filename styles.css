@@ -1,154 +1,154 @@
 @font-face {
-    font-family: 'Open Sans Bold';
-    src: url('./assets/fonts/open-sans.extrabold.ttf');
+  font-family: "Open Sans Bold";
+  src: url("./assets/fonts/open-sans.extrabold.ttf");
 }
 
 * {
-    /* border: 1px solid red; */
-    margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+  /* border: 1px solid red; */
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
 }
 
-html, body {
-    min-height: 100vh;
+html,
+body {
+  min-height: 100vh;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #header {
-    display: flex;
-    height: 8em;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(42, 52, 62);
-    color: rgb(240, 240, 240);
+  display: flex;
+  height: 8em;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(42, 52, 62);
+  color: rgb(240, 240, 240);
 }
 
 #name {
-    padding: 1em;
+  padding: 1em;
 }
 
 #name h1 {
-    letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
 }
 
 #name #role {
-    margin-left: 0.1em;
+  margin-left: 0.1em;
 }
 
 #contact {
-    margin-right: 1em;
-    display: flex;
-    flex-direction: column;
-    height: 85%;
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+  height: 85%;
 }
 
 #contact .contact-item {
-    display: flex;
-    flex-grow: 1;
-    font-size: 0.78em;
-    align-items: center;
+  display: flex;
+  flex-grow: 1;
+  font-size: 0.78em;
+  align-items: center;
 }
 
 #contact .contact-item .icon {
-    display: inline-block;
-    width: 1.3em;
-    height: 1.3em;
-    margin-top: 0.1em;
+  display: inline-block;
+  width: 1.3em;
+  height: 1.3em;
+  margin-top: 0.1em;
 }
 
 #contact .contact-item .contents {
-    margin-left: 0.8em;
-    color: rgb(240, 240, 240);
-    text-decoration: none;
-    transition: 0.1s;
+  margin-left: 0.8em;
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  transition: 0.1s;
 }
 
 #contact .contact-item .contents:hover {
-    transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 #container {
-    display: flex;
-    flex-grow: 1;
-    color: rgb(60, 60, 60);
+  display: flex;
+  flex-grow: 1;
+  color: rgb(60, 60, 60);
 }
 
 #sidebar {
-    width: 22vw;
-    background-color: rgb(224, 231, 238);
+  width: 22vw;
+  background-color: rgb(224, 231, 238);
 }
 
 #sidebar .sidebar-section {
-    margin: 0em 1em;
-    padding: 0.6em 0em;
-    border-bottom: 1px solid lightgrey;
+  margin: 0em 1em;
+  padding: 0.6em 0em;
+  border-bottom: 1px solid lightgrey;
 }
 
 #sidebar .sidebar-section:last-of-type {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 #sidebar .sidebar-section .title {
-    margin-bottom: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 #sidebar .sidebar-section .sidebar-list {
-    font-size: 0.8em;
-    margin-left: -1em;
+  font-size: 0.8em;
+  margin-left: -1em;
 }
 
 #main {
-    width: 78vw;
-    display: flex;
-    flex-direction: column;
+  width: 78vw;
+  display: flex;
+  flex-direction: column;
 }
 
 #main .main-section {
-    padding: 0.6em 0em;
-    margin: 0 1.5em;
-    border-bottom: 1px solid rgb(231, 231, 231);
+  padding: 0.6em 0em;
+  margin: 0 1.5em;
+  border-bottom: 1px solid rgb(231, 231, 231);
 }
 
 #main .main-section:last-of-type {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 #main .main-section .section-title {
-    font-weight: normal;
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.3em;
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
 }
 
 #main .main-section .entry {
-    font-size: 0.8em;
-    margin-bottom: 0.8em;
-    line-height: 1.8em;
+  font-size: 0.8em;
+  margin-bottom: 0.8em;
 }
 
 #main .main-section .entry a {
-    color: rgb(60, 60, 60);
-    text-decoration: none;
-    transition: 0.1s;
+  color: rgb(60, 60, 60);
+  text-decoration: none;
+  transition: 0.1s;
 }
 
 #main .main-section .entry a:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 #main .main-section .entry .entry-title {
-    font-family: 'Open Sans Bold';
-    display: inline-block;
-    font-size: 1.1em;
+  font-family: "Open Sans Bold";
+  display: inline-block;
+  font-size: 1.1em;
+  line-height: 1.8em;
 }
 
 #main .main-section .entry .entry-date {
-    display: inline-block;
-    font-style: italic;
-    margin-left: 0.2em;
-    font-size: 0.9em;
+  display: inline-block;
+  font-style: italic;
+  margin-left: 0.2em;
+  font-size: 0.9em;
 }
